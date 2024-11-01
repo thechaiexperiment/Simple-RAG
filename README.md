@@ -4,8 +4,10 @@
 Retrieval-Augmented Generation (RAG) is an innovative approach that combines the strengths of both information retrieval and natural language generation. By integrating a retrieval component with a generative model, RAG systems can effectively answer queries by pulling relevant information from a knowledge base, improving the quality and accuracy of generated responses.
 
 In a typical RAG setup, when a user poses a question, the system first retrieves relevant documents or pieces of information from a database (such as text files, PDFs, or other structured data). It then uses these retrieved texts as context for a language model, enabling the generation of responses that are not only coherent but also grounded in actual data. This process significantly reduces the likelihood of hallucination (generating false information) by ensuring that the responses are based on verified sources.
+
 ---
 This diagram illustrates the basic flow of the RAG system:
+
 ![Basic RAG System](assets/11.png)
 ---
 
