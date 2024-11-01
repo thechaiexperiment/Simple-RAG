@@ -1,11 +1,5 @@
-# Core libraries for retrieval and generation
-transformers==4.30.2         # Provides pre-trained language models (e.g., GPT-2)
-torch==2.0.1                 # PyTorch library required by transformers
-sentence-transformers==2.2.2 # For embedding-based retrieval (e.g., sentence similarity)
-
-# Utilities for text processing and similarity calculations
-scikit-learn==1.2.2          # For cosine similarity calculations (optional but useful)
-nltk==3.8.1                  # Natural Language Toolkit for text processing
-
-# Optional: Jupyter Notebook for interactive experimentation
-jupyter==1.0.0               # Allows users to test and tweak code interactively
+sentence-transformers
+transformers
+PyMuPDF
+scikit-learn
+numpy
